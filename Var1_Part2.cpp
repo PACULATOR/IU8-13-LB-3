@@ -2,7 +2,7 @@
 #include "stdlib.h"
 int main() {
     int n,m,i=0,j=0;
-    //bool exx=true;
+    bool exx=true;
     std::cout <<"Enter ze number of lines:";
     std::cin>>n;
     std::cout<<"Enter ze number of columns:";

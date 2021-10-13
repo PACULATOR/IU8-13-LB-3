@@ -13,14 +13,14 @@ int main() {
     while (i<m){
         while (j<n){
             a[i][j]=rand();
-            //if (exx==true){
-                //vector[j]=rand();
-                //exx=false;
-            //}
+            if (exx==true){
+                vector[j]=rand();
+                exx=false;
+            }
             j++;
         }
-        vector[i]=rand();
-        //exx=true;
+        //vector[i]=rand();
+        exx=true;
         i++;
 
     }
